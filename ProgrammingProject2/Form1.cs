@@ -19,9 +19,10 @@ namespace ProgrammingProject2
 
         private void goButton_Click(object sender, EventArgs e)
         {
-
+            //set error message invisible in case it was displayed on last click
             errorMessage.Visible = false;
 
+            //set strings for the label texts for price, name, and type
             String scissorPrice = "$7.99";
             String bookPrice = "$2.99";
             String laptopPrice = "$149.99";
@@ -34,13 +35,14 @@ namespace ProgrammingProject2
             String bookType = "Spiral";
             String laptopType = "MacPage 4GB Handheld(TM)";
 
+            //check if no list item is selected, display error message if needed
             if (listBox.SelectedIndex == -1)
             {
                 errorMessage.Visible = true;
             }
             else
             {
-
+                //check for laptop selected, display correct color image and set labels
                 if (listBox.SelectedItem.ToString().Equals("Laptop"))
                 {
                     if (greenButton.Checked == true)
@@ -60,7 +62,7 @@ namespace ProgrammingProject2
                     nameLabel.Text = laptopName;
                     priceLabel.Text = laptopPrice;
                 }
-
+                //check for notebook selected, display correct color image and set labels
                 if (listBox.SelectedItem.ToString().Equals("Notebook"))
                 {
                     if (greenButton.Checked == true)
@@ -80,7 +82,7 @@ namespace ProgrammingProject2
                     nameLabel.Text = bookName;
                     priceLabel.Text = bookPrice;
                 }
-
+                //check for scissors selected, display correct color image and set labels
                 if (listBox.SelectedItem.ToString().Equals("Scissors"))
                 {
                     if (greenButton.Checked == true)
@@ -101,6 +103,7 @@ namespace ProgrammingProject2
                     priceLabel.Text = scissorPrice;
                 }
 
+                //check which checkboxes are checked and set labels visible as needed
                 if (typeBox.Checked == true)
                 {
                     typeLabel.Visible = true;
