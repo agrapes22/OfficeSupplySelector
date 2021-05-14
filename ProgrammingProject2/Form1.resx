@@ -117,32 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="BlueComputer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BlueComputer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BlueNotebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BlueNotebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BlueScissors" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BlueScissors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GreenComputer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GreenComputer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GreenNotebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GreenNotebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GreenScissors" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GreenScissors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RedComputer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RedComputer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RedNotebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RedNotebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RedScissors" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RedScissors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>
